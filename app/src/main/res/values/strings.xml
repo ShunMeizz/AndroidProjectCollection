@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">AndroidProjectCollection</string>
+    <string name="button_1">Layout Exercise</string>
+    <string name="button_2">Button Exercises</string>
+    <string name="button_3">Calculator Activity</string>
+    <string name="button_4">Color Match</string>
+    <string name="button_5">Connect 3</string>
+    <string name="title">Instagram</string>
+    <string name="cat1">Tobby</string>
+    <string name="cat2">Jerry</string>
+    <string name="cat3">Kollie</string>
+    <string name="cat4">Edlyn</string>
+    <string name="cat5">Minkie</string>
+    <string name="cat6">Snowy</string>
+    <string name="comment">Comment</string>
+    <string name="caption">Post Caption</string>
+    <string name="btntext_close">Close</string>
+    <string name="btntext_toast">Toast</string>
+    <string name="btntext_changeBG">Change BG</string>
+    <string name="btntext_changebuttonBG">Change Button BG</string>
+    <string name="btntext_disappear">Disappear</string>
+    <string name="btntext_return">Return</string>
+    <string name="btnZero">0</string>
+    <string name="btnOne">1</string>
+    <string name="btnTwo">2</string>
+    <string name="btnThree">3</string>
+    <string name="btnFour">4</string>
+    <string name="btnFive">5</string>
+    <string name="btnSix">6</string>
+    <string name="btnSeven">7</string>
+    <string name="btnEight">8</string>
+    <string name="btnNine">9</string>
+    <string name="btnMultiply">*</string>
+    <string name="btnDivide">/</string>
+    <string name="btnAdd">+</string>
+    <string name="btnSubtract">-</string>
+    <string name="btnDecimal">.</string>
+    <string name="btnEquals">=</string>
+    <string name="btnClear">Clear</string>
+    <string name="btnText">.</string>
+    <string name="btnReturn">Return</string>
+</resources>
