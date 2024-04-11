@@ -22,7 +22,19 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal">
-
+            <TextView
+                android:id="@+id/tv_result"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Connect 3"
+                android:textSize="50sp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
             <TextView
                 android:id="@+id/tv_currPlayer"
                 android:layout_width="wrap_content"
@@ -43,6 +55,8 @@
                 android:layout_height="90dp"
                 android:layout_weight="1"
                 android:backgroundTint="#F6DACB"
+                android:text="0"
+                android:textSize="0sp"
                 />
 
             <Button
@@ -51,6 +65,8 @@
                 android:layout_height="90dp"
                 android:layout_weight="1"
                 android:backgroundTint="#F6DACB"
+                android:text="0"
+                android:textSize="0sp"
                 />
 
             <Button
@@ -59,6 +75,8 @@
                 android:layout_height="90dp"
                 android:layout_weight="1"
                 android:backgroundTint="#F6DACB"
+                android:text="0"
+                android:textSize="0sp"
                 />
             <Button
                 android:id="@+id/btn14"
@@ -66,6 +84,8 @@
                 android:layout_height="90dp"
                 android:layout_weight="1"
                 android:backgroundTint="#F6DACB"
+                android:text="0"
+                android:textSize="0sp"
                 />
 
             <Button
@@ -74,6 +94,8 @@
                 android:layout_height="90dp"
                 android:layout_weight="1"
                 android:backgroundTint="#F6DACB"
+                android:text="0"
+                android:textSize="0sp"
                 />
         </LinearLayout>
         <LinearLayout
@@ -87,6 +109,8 @@
                 android:layout_height="90dp"
                 android:layout_weight="1"
                 android:backgroundTint="#F6DACB"
+                android:text="0"
+                android:textSize="0sp"
                 />
 
             <Button
@@ -95,6 +119,8 @@
                 android:layout_height="90dp"
                 android:layout_weight="1"
                 android:backgroundTint="#F6DACB"
+                android:text="0"
+                android:textSize="0sp"
                />
 
             <Button
@@ -103,6 +129,8 @@
                 android:layout_height="90dp"
                 android:layout_weight="1"
                 android:backgroundTint="#F6DACB"
+                android:text="0"
+                android:textSize="0sp"
                 />
             <Button
                 android:id="@+id/btn24"
@@ -110,6 +138,8 @@
                 android:layout_height="90dp"
                 android:layout_weight="1"
                 android:backgroundTint="#F6DACB"
+                android:text="0"
+                android:textSize="0sp"
                 />
 
             <Button
@@ -118,6 +148,8 @@
                 android:layout_height="90dp"
                 android:layout_weight="1"
                 android:backgroundTint="#F6DACB"
+                android:text="0"
+                android:textSize="0sp"
                 />
         </LinearLayout>
         <LinearLayout
@@ -131,6 +163,8 @@
                 android:layout_height="90dp"
                 android:layout_weight="1"
                 android:backgroundTint="#F6DACB"
+                android:text="0"
+                android:textSize="0sp"
                  />
 
             <Button
@@ -139,6 +173,8 @@
                 android:layout_height="90dp"
                 android:layout_weight="1"
                 android:backgroundTint="#F6DACB"
+                android:text="0"
+                android:textSize="0sp"
                 />
 
             <Button
@@ -147,6 +183,8 @@
                 android:layout_height="90dp"
                 android:layout_weight="1"
                 android:backgroundTint="#F6DACB"
+                android:text="0"
+                android:textSize="0sp"
                 />
             <Button
                 android:id="@+id/btn34"
@@ -154,6 +192,8 @@
                 android:layout_height="90dp"
                 android:layout_weight="1"
                 android:backgroundTint="#F6DACB"
+                android:text="0"
+                android:textSize="0sp"
                 />
 
             <Button
@@ -162,6 +202,8 @@
                 android:layout_height="90dp"
                 android:layout_weight="1"
                 android:backgroundTint="#F6DACB"
+                android:text="0"
+                android:textSize="0sp"
                 />
 
         </LinearLayout>
@@ -176,6 +218,8 @@
                 android:layout_height="90dp"
                 android:layout_weight="1"
                 android:backgroundTint="#F6DACB"
+                android:text="0"
+                android:textSize="0sp"
                 />
 
             <Button
@@ -184,6 +228,8 @@
                 android:layout_height="90dp"
                 android:layout_weight="1"
                 android:backgroundTint="#F6DACB"
+                android:text="0"
+                android:textSize="0sp"
                 />
 
             <Button
@@ -192,6 +238,8 @@
                 android:layout_height="90dp"
                 android:layout_weight="1"
                 android:backgroundTint="#F6DACB"
+                android:text="0"
+                android:textSize="0sp"
                 />
             <Button
                 android:id="@+id/btn44"
@@ -199,6 +247,8 @@
                 android:layout_height="90dp"
                 android:layout_weight="1"
                 android:backgroundTint="#F6DACB"
+                android:text="0"
+                android:textSize="0sp"
                 />
 
             <Button
@@ -207,6 +257,8 @@
                 android:layout_height="90dp"
                 android:layout_weight="1"
                 android:backgroundTint="#F6DACB"
+                android:text="0"
+                android:textSize="0sp"
                 />
 
         </LinearLayout>
@@ -221,6 +273,8 @@
                 android:layout_height="90dp"
                 android:layout_weight="1"
                 android:backgroundTint="#F6DACB"
+                android:text="0"
+                android:textSize="0sp"
                 />
 
             <Button
@@ -229,6 +283,8 @@
                 android:layout_height="90dp"
                 android:layout_weight="1"
                 android:backgroundTint="#F6DACB"
+                android:text="0"
+                android:textSize="0sp"
                 />
 
             <Button
@@ -237,6 +293,8 @@
                 android:layout_height="90dp"
                 android:layout_weight="1"
                 android:backgroundTint="#F6DACB"
+                android:text="0"
+                android:textSize="0sp"
                 />
             <Button
                 android:id="@+id/btn54"
@@ -244,6 +302,8 @@
                 android:layout_height="90dp"
                 android:layout_weight="1"
                 android:backgroundTint="#F6DACB"
+                android:text="0"
+                android:textSize="0sp"
                 />
 
             <Button
@@ -252,9 +312,17 @@
                 android:layout_height="90dp"
                 android:layout_weight="1"
                 android:backgroundTint="#F6DACB"
+                android:text="0"
+                android:textSize="0sp"
                 />
 
         </LinearLayout>
+
+        <Button
+            android:id="@+id/btnReset"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Reset" />
 
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
