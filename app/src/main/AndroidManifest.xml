@@ -12,6 +12,15 @@
         android:theme="@style/Theme.AndroidProjectCollection"
         tools:targetApi="31">
         <activity
+            android:name=".PassingIntentsExercise2"
+            android:exported="false" />
+        <activity
+            android:name=".PassingIntentsExercise1"
+            android:exported="false" />
+        <activity
+            android:name=".PassingIntents"
+            android:exported="false" />
+        <activity
             android:name=".ConnectThree"
             android:exported="false" />
         <activity

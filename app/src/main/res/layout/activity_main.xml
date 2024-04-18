@@ -17,14 +17,14 @@
 
         <Button
             android:id="@+id/btn_layoutexercise"
-            android:layout_width="wrap_content"
+            android:layout_width="250dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:text="@string/button_1" />
 
         <Button
             android:id="@+id/btn_buttonexercises"
-            android:layout_width="wrap_content"
+            android:layout_width="250dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="20dp"
@@ -32,7 +32,7 @@
 
         <Button
             android:id="@+id/btn_calculator"
-            android:layout_width="wrap_content"
+            android:layout_width="250dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="20dp"
@@ -40,18 +40,43 @@
 
         <Button
             android:id="@+id/btn_colormatch"
-            android:layout_width="wrap_content"
+            android:layout_width="250dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="20dp"
             android:text="@string/button_4" />
+
         <Button
             android:id="@+id/btn_connectThree"
-            android:layout_width="wrap_content"
+            android:layout_width="250dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="20dp"
             android:text="@string/button_5" />
+
+        <Button
+            android:id="@+id/btn_passingIntents"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="@string/button_6" />
+
+        <Button
+            android:id="@+id/btn_fragments"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="@string/button_7" />
+
+        <Button
+            android:id="@+id/btn_menus"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="@string/button_8" />
 
 
     </LinearLayout>

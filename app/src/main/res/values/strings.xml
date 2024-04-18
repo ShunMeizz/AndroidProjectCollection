@@ -3,8 +3,11 @@
     <string name="button_1">Layout Exercise</string>
     <string name="button_2">Button Exercises</string>
     <string name="button_3">Calculator Activity</string>
-    <string name="button_4">Color Match</string>
+    <string name="button_4">Midterm | Color Match</string>
     <string name="button_5">Connect 3</string>
+    <string name="button_6">Passing Intents</string>
+    <string name="button_7">Fragments</string>
+    <string name="button_8">Menus</string>
     <string name="title">Instagram</string>
     <string name="cat1">Tobby</string>
     <string name="cat2">Jerry</string>
