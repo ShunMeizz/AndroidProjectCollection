@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/mItemChange"
+        android:title="Change">
+        <menu>
+            <item
+                android:id="@+id/cTextSize"
+                android:title="Change TextSize" />
+            <item
+                android:id="@+id/cBgColor"
+                android:title="Change BgColor" />
+            <item
+                android:id="@+id/cBtnSize"
+                android:title="Change Size" />
+            <item
+                android:id="@+id/cTextLabel"
+                android:title="Change Text Label" />
+            <item
+                android:id="@+id/cTextColor"
+                android:title="Change TextColor" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/mItemReset"
+        android:title="Reset" />
+    <item
+        android:id="@+id/mItemExit"
+        android:title="Exit" />
+</menu>

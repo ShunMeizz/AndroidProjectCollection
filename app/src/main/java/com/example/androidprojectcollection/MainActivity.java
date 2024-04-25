@@ -10,7 +10,7 @@ import android.widget.Button;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
-    Button btn1, btn2, btn3, btn4, btn5, btn6;
+    Button btn1, btn2, btn3, btn4, btn5, btn6, btn7;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -21,6 +21,7 @@ public class MainActivity extends AppCompatActivity {
         btn4 = (Button) findViewById(R.id.btn_colormatch);
         btn5 = (Button) findViewById(R.id.btn_connectThree);
         btn6 = (Button) findViewById(R.id.btn_passingIntents);
+        btn7 = (Button) findViewById(R.id.btn_menus);
 
 
         btn1.setOnClickListener(new View.OnClickListener() {
@@ -63,6 +64,13 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent1 = new Intent(MainActivity.this, PassingIntentsExercise1.class);
+                startActivity(intent1);
+            }
+        });
+        btn7.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent1 = new Intent(MainActivity.this, MenuExercise.class);
                 startActivity(intent1);
             }
         });
