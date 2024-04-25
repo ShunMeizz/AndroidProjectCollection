@@ -58,6 +58,10 @@ public class MenuExercise extends AppCompatActivity {
                 return true;
             case R.id.mItemReset:
                 Toast.makeText(this, "Reset Object Item is clicked", Toast.LENGTH_SHORT).show();
+                ConstraintLayout.LayoutParams layoutParam = (ConstraintLayout.LayoutParams) btnChanger.getLayoutParams();
+                layoutParam.width = 600;
+                layoutParam.height = 600;
+                btnChanger.setLayoutParams(layoutParam);
                 btnChanger.setBackgroundColor(Color.DKGRAY);
                 btnChanger.setTypeface(null, Typeface.BOLD);
                 btnChanger.setText("DEF");
