@@ -4,13 +4,14 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.annotation.SuppressLint;
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
-    Button btn1, btn2, btn3, btn4, btn5, btn6, btn7;
+    Button btn1, btn2, btn3, btn4, btn5, btn6, btn7, btn8;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -22,6 +23,7 @@ public class MainActivity extends AppCompatActivity {
         btn5 = (Button) findViewById(R.id.btn_connectThree);
         btn6 = (Button) findViewById(R.id.btn_passingIntents);
         btn7 = (Button) findViewById(R.id.btn_menus);
+        btn8 = (Button) findViewById(R.id.btn_maps);
 
 
         btn1.setOnClickListener(new View.OnClickListener() {
@@ -72,6 +74,14 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent1 = new Intent(MainActivity.this, MenuExercise.class);
                 startActivity(intent1);
+            }
+        });
+        btn8.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent1 = new Intent(Intent.ACTION_VIEW, Uri.parse("geo: 35.01658417229601, 135.76348970009423"));
+                Intent intent2 = new Intent(MainActivity.this, MapExercise.class);
+                startActivity(intent2);
             }
         });
 
